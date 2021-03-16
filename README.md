@@ -1,0 +1,2 @@
+# EnableFPFC
+Oculus だけGameCore中にFPFC使えなくなってたのを無理やり有効化
