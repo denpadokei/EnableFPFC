@@ -1,6 +1,5 @@
 # EnableFPFC
 
-[![Build and Release](https://github.com/denpadokei/EnableFPFC/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/denpadokei/EnableFPFC/actions/workflows/build-and-release.yml)
 
 起動引数 `FPFC` が付いているときに First Person Flying Camera を有効化する MOD です。Oculus 環境でゲームシーン中に FPFC が使えなくなった問題を、カメラを差し替えることで回避します。
 
@@ -45,7 +44,8 @@ dotnet build .\EnableFPFC\EnableFPFC.csproj -c Release
 
 `BeatSaberDir` (または `GameDirectory`) に Beat Saber のインストール先を設定すると、ゲームの参照アセンブリを解決できます。
 
-GitHub Actions の `build-and-release.yml` が push ごとにビルドし、`X.X.X` 形式のタグを push するとリリースを作成します。
+
+> GitHub Actions によるビルドは未設定です。コードが SiraUtil 3 系の Zenjector を必要とする一方、manifest の対象バージョン (1.11.1) 向けの SiraUtil が提供されていないため。
 
 ## ライセンス
 
